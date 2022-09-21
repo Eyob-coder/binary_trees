@@ -5,7 +5,7 @@
  * @parent: a pointer to teh parent of tfeh node to create.
  * @value: the value to put in teh new node.
  * Return: if an error occurs -NULL.
- * 		Otherwise - a pointer to the new node.
+ * Otherwise - a pointer to the new node.
  */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
@@ -15,7 +15,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	if (new == NULL)
 		return (NULL);
 
-	new->n =value;
+	new->n = value;
 	new->parent = parent;
 	new->left = NULL;
 	new->right = NULL;
